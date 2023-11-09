@@ -18,7 +18,6 @@ public enum Season {
         return nameSeason;
     }
 
-
     public String[] getNameMonth() {
         return nameMonth;
     }
