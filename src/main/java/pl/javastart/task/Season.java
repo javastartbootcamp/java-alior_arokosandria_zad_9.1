@@ -1,23 +1,13 @@
 package pl.javastart.task;
 
-import java.util.Arrays;
-
 public enum Season {
     SPRING("wiosna", "marzec", "kwiecień", "maj"),
     SUMMER("lato", "czerwiec", "lipiec", "sierpień"),
     AUTUMN("jesień", "wrzesień", "październik", "listopad"),
     WINTER("zima", "grudzień", "styczeń", "luty");
 
-
     private final String nameSeason;
     private final String[] nameMonth;
-
-    @Override
-    public String toString() {
-        return "Season{" +
-                "nameMonth=" + Arrays.toString(nameMonth) +
-                '}';
-    }
 
     Season(String nameSeason, String... nameMonth) {
         this.nameSeason = nameSeason;
