@@ -18,11 +18,12 @@ public enum Season {
         return nameSeason;
     }
 
+
     public String[] getNameMonth() {
         return nameMonth;
     }
 
-    public static Season getNameSeason(String nameSeason) {
+    public static Season getNameSeasonValue(String nameSeason) {
         for (Season value : values()) {
             if (value.getNameSeason().equalsIgnoreCase(nameSeason)) {
                 return value;

@@ -12,7 +12,7 @@ public class SeasonManager {
         }
         String nameSeason = scanner.next();
         System.out.print("[");
-        String name = String.join(", ", Season.getNameSeason(nameSeason).getNameMonth());
+        String name = String.join(", ", Season.getNameSeasonValue(nameSeason).getNameMonth());
         System.out.print(name + "]");
     }
 }
